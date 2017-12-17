@@ -1,17 +1,32 @@
 package google;
 
+import java.util.TreeSet;
+
 /**
  * Created by sumon.chatterjee on 28/11/17.
  */
 public class Test {
 
     public static void main(String[] args){
-        Test test= new Test();
+        /*Test test= new Test();
         boolean check=test.isUniqueChars2("helo");
         if(check)
             System.out.println("yes");
         else
-            System.out.println("no");
+            System.out.println("no");*/
+
+        /*StringsIterator iterator = new StringsIterator("L1e2t1C1o1d1e1");
+        char c=iterator.next();
+        iterator.hasNext();
+        iterator.next();
+        iterator.next();
+        boolean check=iterator.hasNext();
+*/
+
+
+
+
+
     }
 
     public static boolean isUniqueChars2(String str) {

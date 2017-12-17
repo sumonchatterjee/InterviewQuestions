@@ -43,6 +43,8 @@ public class SplitArraySubseQuence {
         }
         return true;
     }
+
+
     public PriorityQueue<Integer> getOrPut(int num) {
         PriorityQueue<Integer> pq = dmap.get(num);
         if (pq == null) {
@@ -75,5 +77,21 @@ public class SplitArraySubseQuence {
             map.put(i, map.get(i) - 1);
         }
         return true;
+    }
+
+
+
+    private void heckSubsequences(int[]nums){
+        TreeMap<Integer, Integer> map = new TreeMap<>(); //for inserting elements of array given
+        Map<Integer, Integer> append = new HashMap<>(); // for making subarray
+
+        //for getting the frequency of each element in array
+        for(int num:nums){
+            map.put(num,map.getOrDefault(num,0)+1); //element exists then add 1 or else simply 1
+        }
+
+        for(int num:nums){
+
+        }
     }
 }
