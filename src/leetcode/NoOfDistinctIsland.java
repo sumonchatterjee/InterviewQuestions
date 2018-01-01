@@ -3,6 +3,8 @@ package leetcode;
 /**
  * Created by sumon.chatterjee on 21/11/17.
  */
+
+/*http://www.geeksforgeeks.org/find-number-of-islands/*/
 public class NoOfDistinctIsland {
 
     private final int[] xDir = {1,  0, -1, 0};

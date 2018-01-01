@@ -6,6 +6,7 @@ import java.util.Stack;
  * Created by sumon.chatterjee on 16/12/17.
  */
 public class ValidParenthisis {
+
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<Character>();
         // Iterate through string until empty

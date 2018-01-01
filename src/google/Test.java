@@ -8,6 +8,17 @@ import java.util.TreeSet;
 public class Test {
 
     public static void main(String[] args){
+
+        RandomizedSetWithDuplicacy set= new RandomizedSetWithDuplicacy();
+        set.insert(1);
+
+        set.insert(3);
+        set.insert(1);
+
+        set.insert(5);
+        int val =set.getRandom();
+        set.remove(3);
+        System.out.println("val = "+val);
         /*Test test= new Test();
         boolean check=test.isUniqueChars2("helo");
         if(check)
